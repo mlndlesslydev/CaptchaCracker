@@ -58,7 +58,7 @@ class CreateModel:
         
     def train_model(self, epochs=100, earlystopping=False):
         # 학습 및 검증을 위한 배치 사이즈 정의
-        batch_size = 16
+        batch_size = 64
         # 다운 샘플링 요인 수 (Conv: 2, Pooling: 2)
         downsample_factor = 4
         
